@@ -11,7 +11,7 @@ const details = [
 
 const schedule = [
   { emoji: '⏱️', label: 'Duration', value: '3 to 4 hours per day' },
-  { emoji: '📅', label: 'Days', value: 'Monday to Saturday' },
+  { emoji: '📅', label: 'Days', value: 'Monday to Friday' },
   { emoji: '🎯', label: 'Total Days', value: '15 days of learning' },
 ];
 
