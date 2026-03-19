@@ -8,7 +8,7 @@ const projects = [
   { emoji: '🚪', title: 'Smart Door Lock', desc: 'Password-protected door system with LED indicators built on Arduino.' },
   { emoji: '🎨', title: 'Animation Film', desc: 'A short animated story created entirely in Scratch with original story & art.' },
   { emoji: '🌱', title: 'Plant Watering Bot', desc: 'Auto-waters your plant when soil moisture drops below threshold.' },
-  { emoji: '⚡', title: 'Tinkercad Design', desc: 'Simulate complex circuits and 3D models using the Tinkercad platform.', link: 'https://www.tinkercad.com/' },
+  { emoji: '⚡', title: 'Tinkercad Design', desc: 'Simulate complex circuits and 3D models using the Tinkercad platform.' },
   { emoji: '💡', title: 'Innovation Project', desc: 'Student\'s own idea — designed, built, and presented with mentor support.' },
 ];
 
@@ -51,17 +51,7 @@ export default function Projects() {
               </span>
               <div>
                 <h3 className="font-semibold text-white text-base mb-1">{p.title}</h3>
-                <p className="text-white/50 text-sm leading-relaxed mb-2">{p.desc}</p>
-                {p.link && (
-                  <a 
-                    href={p.link} 
-                    target="_blank" 
-                    rel="noopener noreferrer" 
-                    className="text-xs font-semibold text-indigo-400 hover:text-indigo-300 transition-colors flex items-center gap-1 group/link w-fit"
-                  >
-                    Explore on {new URL(p.link).hostname.replace('www.', '')} <span className="group-hover/link:translate-x-0.5 group-hover/link:-translate-y-0.5 transition-transform">↗</span>
-                  </a>
-                )}
+                <p className="text-white/50 text-sm leading-relaxed">{p.desc}</p>
               </div>
             </motion.div>
           ))}
