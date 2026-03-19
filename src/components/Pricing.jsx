@@ -3,14 +3,13 @@ import { useInView } from '../hooks/useInView';
 import { Check, Zap } from 'lucide-react';
 
 const inclusions = [
-  '15-day live interactive program',
+  '15-day intensive program',
   '3–4 hours daily expert-led sessions',
   '5–7 real hands-on projects',
   'QD CODEX Completion Certificate',
   'Social media project feature',
   'QD CODEX branded T-shirt',
   'QD CODEX water bottle',
-  'Access to recorded sessions',
   'Mentor support & doubt clearing',
 ];
 

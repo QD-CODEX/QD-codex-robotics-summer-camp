@@ -4,9 +4,8 @@ import { Calendar, Clock, Layers, Wifi } from 'lucide-react';
 
 const details = [
   { icon: Calendar, label: 'Duration', value: '15 Days', sub: 'Intensive program' },
-  { icon: Clock, label: 'Daily Hours', value: '3–4 Hrs', sub: 'Live per day' },
+  { icon: Clock, label: 'Daily Hours', value: '3–4 Hrs', sub: 'Per day' },
   { icon: Layers, label: 'Modules', value: '4 Modules', sub: 'Scratch · Robotics · Arduino · Lab' },
-  { icon: Wifi, label: 'Mode', value: 'Live Online', sub: 'Join from anywhere' },
 ];
 
 const schedule = [

@@ -38,6 +38,7 @@ export default {
         'cta-gradient': 'linear-gradient(135deg, #6366f1 0%, #a855f7 100%)',
         'glow-blue': 'radial-gradient(ellipse at center, rgba(99,102,241,0.3) 0%, transparent 70%)',
         'glow-purple': 'radial-gradient(ellipse at center, rgba(168,85,247,0.3) 0%, transparent 70%)',
+        'qd-logo': "url('/qdlogo1.png')",
       },
       animation: {
         'float': 'float 6s ease-in-out infinite',

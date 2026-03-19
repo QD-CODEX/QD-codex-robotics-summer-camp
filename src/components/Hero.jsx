@@ -64,7 +64,7 @@ export default function Hero() {
           animate={{ scale: [1.2, 1, 1.2], opacity: [0.3, 0.15, 0.3] }}
           transition={{ duration: 10, repeat: Infinity }}
         />
-        <div className="absolute inset-0 bg-[url('data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNjAiIGhlaWdodD0iNjAiIHZpZXdCb3g9IjAgMCA2MCA2MCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48ZyBmaWxsPSJub25lIiBmaWxsLXJ1bGU9ImV2ZW5vZGQiPjxnIGZpbGw9IiM2MzY2ZjEiIGZpbGwtb3BhY2l0eT0iMC4wNCI+PHBhdGggZD0iTTM2IDM0djZoNnYtNmgtNnptMCAwdi02aC02djZoNnoiLz48L2c+PC9nPjwvc3ZnPg==')] opacity-40" />
+        <div className="absolute inset-0 bg-qd-logo opacity-[0.03] bg-repeat pointer-events-none" />
       </div>
 
       {/* Floating icons */}
@@ -143,7 +143,7 @@ export default function Hero() {
           transition={{ duration: 0.6, delay: 0.55 }}
           className="flex flex-wrap items-center justify-center gap-3 mb-9"
         >
-          {['📅 Starts May 1', '⏱ 15-Day Program', '🎥 3–4 Hrs Daily', '💻 Live Online'].map((item) => (
+          {['📅 Starts May 1', '⏱ 15-Day Program', '🎥 3–4 Hrs Daily'].map((item) => (
             <span key={item} className="px-3 py-1.5 rounded-full text-xs sm:text-sm font-medium bg-white/8 border border-white/10 text-white/80">
               {item}
             </span>

@@ -4,12 +4,6 @@ import { Video, Code, Trophy, Users } from 'lucide-react';
 
 const features = [
   {
-    icon: Video,
-    title: 'Live Online Sessions',
-    desc: '3–4 hours of daily live instruction with real-time interaction and Q&A with expert mentors.',
-    color: 'from-indigo-500 to-blue-500',
-  },
-  {
     icon: Code,
     title: 'Real-World Projects',
     desc: 'Build 5–7 actual projects — games, smart devices, and robots you can demo and share.',
