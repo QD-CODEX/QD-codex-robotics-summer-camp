@@ -4,14 +4,13 @@ import { useInView } from '../hooks/useInView';
 import { Loader2, CheckCircle2, AlertCircle } from 'lucide-react';
 
 const grades = ['Grade 6', 'Grade 7', 'Grade 8', 'Grade 9'];
-const batchOptions = ['Batch A – 9:00 AM to 12:00 PM', 'Batch B – 1:00 PM to 4:00 PM', 'Batch C – 5:00 PM to 8:00 PM'];
 
 const FORM_ENDPOINT = 'https://formspree.io/f/placeholder'; // Replace with actual endpoint
 
 export default function Registration() {
   const [ref, inView] = useInView(0.1);
   const [form, setForm] = useState({
-    name: '', grade: '', phone: '', email: '', batch: '', message: '',
+    name: '', grade: '', phone: '', email: '', message: '',
   });
   const [status, setStatus] = useState('idle'); // idle | submitting | success | error
 
@@ -157,25 +156,7 @@ export default function Registration() {
                   />
                 </div>
 
-                {/* Batch */}
-                <div>
-                  <label htmlFor="batch" className="block text-white/60 text-xs font-medium mb-1.5 uppercase tracking-wide">
-                    Preferred Batch *
-                  </label>
-                  <select
-                    id="reg-batch"
-                    name="batch"
-                    required
-                    value={form.batch}
-                    onChange={handleChange}
-                    className="input-field appearance-none cursor-pointer"
-                  >
-                    <option value="" disabled className="bg-[#0f0c29]">Select a batch</option>
-                    {batchOptions.map((b) => (
-                      <option key={b} value={b} className="bg-[#0f0c29]">{b}</option>
-                    ))}
-                  </select>
-                </div>
+
 
                 {/* Message */}
                 <div>
