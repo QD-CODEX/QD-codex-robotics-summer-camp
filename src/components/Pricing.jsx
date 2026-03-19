@@ -62,7 +62,7 @@ export default function Pricing() {
               <div className="text-center mb-6">
                 <div className="text-white/40 text-sm line-through">₹5999 Regular Price</div>
                 <div className="text-5xl sm:text-6xl font-display font-extrabold gradient-text mt-1">
-                  ₹3999
+                  ₹3999 + GST
                 </div>
                 <div className="text-white/50 text-sm mt-1">One-time payment · All inclusive</div>
                 <div className="mt-2">
@@ -92,7 +92,7 @@ export default function Pricing() {
                 className="btn-primary w-full text-base sm:text-lg animate-pulse-glow"
                 id="pricing-enroll-btn"
               >
-                🚀 Enroll Now for ₹3999
+                🚀 Enroll Now for ₹3999 + GST
               </a>
 
               <p className="text-center text-white/30 text-xs mt-3">
