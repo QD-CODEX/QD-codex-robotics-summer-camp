@@ -86,7 +86,7 @@ export default function Pricing() {
 
               {/* CTA */}
               <a
-                href="https://wa.me/919787015703"
+                href="https://pages.razorpay.com/pl_SSzxZ4cqwYAduD/view"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="btn-primary w-full text-base sm:text-lg animate-pulse-glow"

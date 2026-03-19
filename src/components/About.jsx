@@ -43,7 +43,7 @@ export default function About() {
             for young innovators
           </h2>
           <p className="text-white/60 text-base sm:text-lg max-w-xl mx-auto leading-relaxed">
-            QD CODEX Summer Tech Camp is an intensive 15-day program designed to spark creativity, critical thinking, and tech skills in students from Grade 6 to 9. No prior experience needed — just curiosity and enthusiasm!
+            Summer Tech Camp QD FutureBots 2026 is an intensive 15-day program designed to spark creativity, critical thinking, and tech skills in students from Grade 6 to 9. No prior experience needed — just curiosity and enthusiasm!
           </p>
         </motion.div>
 

@@ -93,8 +93,8 @@ export default function Hero() {
           transition={{ duration: 0.7, delay: 0.1 }}
           className="font-display text-4xl sm:text-5xl lg:text-6xl font-extrabold leading-tight mb-4"
         >
-          🚀 Summer Tech Camp{' '}
-          <span className="gradient-text">2026</span>
+          🚀 Summer Tech Camp QD{' '}
+          <span className="gradient-text">FutureBots 2026</span>
           <br />
           <span className="text-white/90 text-3xl sm:text-4xl lg:text-5xl">by QD CODEX</span>
         </motion.h1>
@@ -158,7 +158,7 @@ export default function Hero() {
           className="flex flex-col sm:flex-row gap-3 justify-center"
         >
           <a
-            href="https://wa.me/919787015703"
+            href="https://pages.razorpay.com/pl_SSzxZ4cqwYAduD/view"
             target="_blank"
             rel="noopener noreferrer"
             className="btn-primary text-base sm:text-lg animate-pulse-glow"

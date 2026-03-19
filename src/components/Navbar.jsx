@@ -35,7 +35,7 @@ export default function Navbar() {
           <div className="w-8 h-8 flex items-center justify-center">
             <img src="/qdlogo1.png" alt="QD CODEX" className="w-full h-full object-contain" />
           </div>
-          <span className="gradient-text">QD CODEX</span>
+          <span className="gradient-text">FutureBots</span>
         </a>
 
         {/* Desktop nav */}
@@ -50,7 +50,7 @@ export default function Navbar() {
             </button>
           ))}
           <a
-            href="https://wa.me/919787015703"
+            href="https://pages.razorpay.com/pl_SSzxZ4cqwYAduD/view"
             target="_blank"
             rel="noopener noreferrer"
             className="btn-primary !py-2 !px-5 !text-sm"
@@ -91,7 +91,7 @@ export default function Navbar() {
               ))}
               <div className="pt-2 px-4">
                 <a
-                  href="https://wa.me/919787015703"
+                  href="https://pages.razorpay.com/pl_SSzxZ4cqwYAduD/view"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="btn-primary w-full"

@@ -29,7 +29,7 @@ export default function StickyBottomCTA() {
         >
           <div className="max-w-sm mx-auto">
             <a
-              href="https://wa.me/919787015703"
+              href="https://pages.razorpay.com/pl_SSzxZ4cqwYAduD/view"
               target="_blank"
               rel="noopener noreferrer"
               className="flex items-center justify-between w-full btn-primary rounded-2xl shadow-glow-lg px-5 py-4"
