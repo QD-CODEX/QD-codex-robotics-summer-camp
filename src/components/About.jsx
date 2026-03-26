@@ -6,7 +6,7 @@ const features = [
   {
     icon: Code,
     title: 'Real-World Projects',
-    desc: 'Build 5–7 actual projects — games, smart devices, and robots you can demo and share.',
+    desc: 'Build multiple actual projects — games, smart devices, and robots you can demo and share.',
     color: 'from-purple-500 to-pink-500',
   },
   {
@@ -43,7 +43,7 @@ export default function About() {
             for young innovators
           </h2>
           <p className="text-white/60 text-base sm:text-lg max-w-xl mx-auto leading-relaxed">
-            Summer Tech Camp QD FutureBots 2026 is an intensive 15-day program designed to spark creativity, critical thinking, and tech skills in students from Grade 6 to 9. No prior experience needed — just curiosity and enthusiasm!
+            Summer Tech Camp QD FutureBots 2026 is an intensive 10-day program designed to spark creativity, critical thinking, and tech skills in students from Grade 6 to 9. No prior experience needed — just curiosity and enthusiasm!
           </p>
         </motion.div>
 
@@ -75,9 +75,9 @@ export default function About() {
           className="mt-10 grid grid-cols-3 gap-3"
         >
           {[
-            { num: '15', label: 'Days' },
+            { num: '10', label: 'Days' },
             { num: '3–4', label: 'Hrs/Day' },
-            { num: '5–7', label: 'Projects' },
+            { num: 'Real', label: 'Projects' },
           ].map((s) => (
             <div key={s.label} className="glass-card p-4 text-center">
               <div className="text-2xl sm:text-3xl font-display font-extrabold gradient-text">{s.num}</div>

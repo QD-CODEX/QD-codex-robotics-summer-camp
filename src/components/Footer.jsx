@@ -20,7 +20,7 @@ export default function Footer() {
         <div className="flex justify-center gap-4 text-xs text-white/20">
           <span>Grades 6–9</span>
           <span>·</span>
-          <span>Starting May 1, 2026</span>
+          <span>Starting April 20, 2026</span>
         </div>
         <p className="text-white/15 text-xs mt-6">
           © 2026 QD CODEX. All rights reserved.

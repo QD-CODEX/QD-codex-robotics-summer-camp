@@ -36,8 +36,8 @@ export default function StickyBottomCTA() {
               id="sticky-enroll-btn"
             >
               <div className="text-left">
-                <div className="text-sm font-bold">Enroll Now – ₹3999 + GST</div>
-                <div className="text-xs text-white/70">Limited seats · Starts May 1</div>
+                <div className="text-sm font-bold">Enroll Now – ₹4400 + GST</div>
+                <div className="text-xs text-white/70">Limited seats · Starts April 20</div>
               </div>
               <span className="text-2xl">🚀</span>
             </a>

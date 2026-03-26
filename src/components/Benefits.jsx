@@ -32,6 +32,11 @@ const benefits = [
     title: 'QD CODEX Water Bottle',
     desc: 'A complimentary QD CODEX water bottle to keep you hydrated through every session.',
   },
+  {
+    emoji: '🍎',
+    title: 'Healthy Snacks',
+    desc: 'Nutritious snacks and refreshments provided daily to keep energy levels high!',
+  },
 ];
 
 const targetAudience = [

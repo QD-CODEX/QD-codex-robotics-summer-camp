@@ -3,15 +3,16 @@ import { useInView } from '../hooks/useInView';
 import { Calendar, Clock, Layers, Wifi } from 'lucide-react';
 
 const details = [
-  { icon: Calendar, label: 'Duration', value: '15 Days', sub: 'Intensive program' },
+  { icon: Calendar, label: 'Duration', value: '10 Days', sub: 'Intensive program' },
   { icon: Clock, label: 'Daily Hours', value: '3–4 Hrs', sub: 'Per day' },
-  { icon: Layers, label: 'Modules', value: '4 Modules', sub: 'Scratch · Robotics · Arduino · Lab' },
+  { icon: Layers, label: 'Modules', value: '10 Modules', sub: 'Design · Coding · AI · Robotics' },
 ];
 
 const schedule = [
   { emoji: '⏱️', label: 'Duration', value: '3 to 4 hours per day' },
   { emoji: '📅', label: 'Days', value: 'Monday to Friday' },
-  { emoji: '🎯', label: 'Total Days', value: '15 days of learning' },
+  { emoji: '🎯', label: 'Total Days', value: '10 days of learning' },
+  { emoji: '🍎', label: 'Refreshments', value: 'Healthy snacks provided' },
 ];
 
 export default function ProgramDetails() {
