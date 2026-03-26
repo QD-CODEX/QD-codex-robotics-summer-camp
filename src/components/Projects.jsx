@@ -5,7 +5,6 @@ const projects = [
   { emoji: '🎮', title: 'Scratch Game', desc: 'An interactive platformer game with custom characters, levels & score system.' },
   { emoji: '🌦️', title: 'Weather Station', desc: 'Arduino-powered sensor that displays real-time temperature & humidity.' },
   { emoji: '🤖', title: 'Line Follower Bot', desc: 'A robot that autonomously follows a path using IR sensors.' },
-  { emoji: '🚪', title: 'Smart Door Lock', desc: 'Password-protected door system with LED indicators built on Arduino.' },
   { emoji: '🎨', title: 'Animation Film', desc: 'A short animated story created entirely in Scratch with original story & art.' },
   { emoji: '🌱', title: 'Plant Watering Bot', desc: 'Auto-waters your plant when soil moisture drops below threshold.' },
   { emoji: '⚡', title: 'Tinkercad Design', desc: 'Simulate complex circuits and 3D models using the Tinkercad platform.' },
@@ -27,7 +26,7 @@ export default function Projects() {
           <span className="section-tag mb-4 inline-flex">🛠️ Real Projects</span>
           <h2 className="section-title mb-3">
             Build{' '}
-            <span className="gradient-text">5–7 Real-World</span>
+            <span className="gradient-text">Real-World</span>
             <br />
             Projects
           </h2>

@@ -2,7 +2,7 @@ import { useState, useEffect } from 'react';
 import { motion } from 'framer-motion';
 import { Code2, Cpu, Zap, Star, ChevronDown } from 'lucide-react';
 
-const TARGET_DATE = new Date('2026-05-01T00:00:00');
+const TARGET_DATE = new Date('2026-04-20T00:00:00');
 
 function useCountdown(target) {
   const calc = () => {
@@ -143,7 +143,7 @@ export default function Hero() {
           transition={{ duration: 0.6, delay: 0.55 }}
           className="flex flex-wrap items-center justify-center gap-3 mb-9"
         >
-          {['📅 Starts May 1', '⏱ 15-Day Program', '🎥 3–4 Hrs Daily'].map((item) => (
+          {['📅 Starts April 20', '⏱ 10-Day Program', '🎥 3–4 Hrs Daily'].map((item) => (
             <span key={item} className="px-3 py-1.5 rounded-full text-xs sm:text-sm font-medium bg-white/8 border border-white/10 text-white/80">
               {item}
             </span>
@@ -164,7 +164,7 @@ export default function Hero() {
             className="btn-primary text-base sm:text-lg animate-pulse-glow"
             id="hero-enroll-btn"
           >
-            🚀 Enroll Now – ₹3999 + GST
+            🚀 Enroll Now – ₹4400 + GST
           </a>
           <a
             href="#curriculum"

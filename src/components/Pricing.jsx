@@ -3,14 +3,15 @@ import { useInView } from '../hooks/useInView';
 import { Check, Zap } from 'lucide-react';
 
 const inclusions = [
-  '15-day intensive program',
+  '10-day intensive program',
   '3–4 hours daily expert-led sessions',
-  '5–7 real hands-on projects',
+  'Real-world projects',
   'QD CODEX Completion Certificate',
   'Social media project feature',
   'QD CODEX branded T-shirt',
   'QD CODEX water bottle',
   'Mentor support & doubt clearing',
+  'Healthy snacks & refreshments',
 ];
 
 export default function Pricing() {
@@ -62,12 +63,12 @@ export default function Pricing() {
               <div className="text-center mb-6">
                 <div className="text-white/40 text-sm line-through">₹5999 Regular Price</div>
                 <div className="text-5xl sm:text-6xl font-display font-extrabold gradient-text mt-1">
-                  ₹3999 + GST
+                  ₹4400 + GST
                 </div>
                 <div className="text-white/50 text-sm mt-1">One-time payment · All inclusive</div>
                 <div className="mt-2">
                   <span className="bg-emerald-500/20 border border-emerald-500/30 text-emerald-400 text-xs font-bold px-3 py-1 rounded-full">
-                    SAVE ₹2000 — 33% OFF
+                    SAVE ₹1599 — 27% OFF
                   </span>
                 </div>
               </div>
@@ -92,7 +93,7 @@ export default function Pricing() {
                 className="btn-primary w-full text-base sm:text-lg animate-pulse-glow"
                 id="pricing-enroll-btn"
               >
-                🚀 Enroll Now for ₹3999 + GST
+                🚀 Enroll Now for ₹4400 + GST
               </a>
 
               <p className="text-center text-white/30 text-xs mt-3">
